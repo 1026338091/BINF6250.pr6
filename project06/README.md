@@ -20,7 +20,7 @@ We also spent a good amount of time trying to decide on Node object structure an
 Group leader's reflection on the project
 
 ## Hongyuan Deng 
-Other members' reflections on the project
+Reflecting on this module, our team spent a significant amount of time wrestling with the algorithmic design of the Neighbor-Joining (NJ) function, specifically deciding between a recursive and an iterative approach.However, through deep diving into the implementation,we utilized an iterative "string-building" technique. By dynamically updating the numpy distance matrix and formatting the merged nodes directly into Newick substrings on the fly, we bypassed the deep recursion limits in Python.
 
 ## Victoria Van Berlo
 This project seemed simple, but proved rather confounding the deeper we went. Recursion is a weakness of mine, but my group members helped me to understand and having both methods solidified things for me.
